@@ -1,0 +1,4 @@
+flask
+flask-cors
+psycopg2-binary # Ito ang library para kumonekta sa PostgreSQL
+python-dotenv # Para sa local testing ng environment variables
