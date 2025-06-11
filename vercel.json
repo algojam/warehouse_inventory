@@ -12,8 +12,12 @@
       "dest": "/app.py"
     },
     {
-      "src": "/(.*)",
-      "dest": "/public/$1"
+      "src": "/", // Kapag ang request ay sa root URL (hal. example.com/)
+      "dest": "/public/index.html" // I-serve ang index.html na nasa public folder
+    },
+    {
+      "src": "/(.*)", // Para sa lahat ng iba pang files (tulad ng CSS, JS, images)
+      "dest": "/public/$1" // I-serve sila mula sa public folder
     }
   ],
   "env": {}
