@@ -6,11 +6,7 @@
       "use": "@vercel/python"
     },
     {
-      "src": "*.html",
-      "use": "@vercel/static-build"
-    },
-    {
-      "src": "public/**",
+      "src": "public/**/*",
       "use": "@vercel/static-build"
     }
   ],
@@ -25,6 +21,6 @@
     }
   ],
   "env": {
-    "DATABASE_URL": "@DATABASE_URL"
+    // "DATABASE_URL": "@DATABASE_URL" // Tinanggal o in-comment out ito
   }
 }
