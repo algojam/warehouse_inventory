@@ -21,6 +21,7 @@
     }
   ],
   "env": {
-    // "DATABASE_URL": "@DATABASE_URL" // Tinanggal o in-comment out ito
+    // Tiyakin po na wala na ang "DATABASE_URL": "@DATABASE_URL" dito
+    // Kung walang ibang env variable, dapat ay walang laman ang "env": {}
   }
 }
